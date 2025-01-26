@@ -26,5 +26,5 @@ go run .
 ## cURL
 
 ```sh
-curl --location 'localhost:8080/ping'
+curl --head --location 'localhost:8080/ping'
 ```
